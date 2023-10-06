@@ -1,1 +1,11 @@
-<h1>HW</h1>
+<h1>Listado de repositorios</h1>
+
+<h3>Mas populares por cantidad de estrellas</h3>
+
+<div *ngFor="let repositorioActual of repositorios">
+  <h5>{{ repositorioActual.full_name }}</h5>
+  <span class="linea_simple">
+    <p>Propietario: {{ repositorioActual.owner.login }}</p>
+    <p>Estrellas: {{ repositorioActual.stargazers_count }}</p>
+  </span>
+</div>
