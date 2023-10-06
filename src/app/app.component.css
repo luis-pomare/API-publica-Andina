@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h3 {
+  margin-bottom: 20px;
+}
+
+.linea_simple {
+  display: flex;
+  column-gap: 20px;
+  margin-bottom: 15px;
+}
